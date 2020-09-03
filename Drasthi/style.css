@@ -34,7 +34,7 @@ body{
 }
 @media only screen and (max-width: 800px){
    
-}
+
 .list{
     font-size: 20px;
 }
@@ -57,12 +57,28 @@ table {
   
   table, th, td {
   
-    padding: 15px;
+    padding: 20px;
   }
 
   #foot{
     position: fixed;
     bottom: 0;
     
-
+  }
+  .products{
+    grid-area: products;
+  
+  }
+  .service{
+    grid-area: service;
+  }
+  .address{
+    grid-area: adress;
+  }
+  .contactus{
+    grid-area: contactus;
+  }
+  .foot{
+    grid-area: foot;
+  }
 }
